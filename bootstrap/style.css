@@ -3,33 +3,61 @@
     margin: 0;
     padding: 0;
     display: center;
+    display: inline;
+    margin: 20px;
+
 }
 
-html {
-  background-color: aqua;
-}
 
 ul {
   list-style-type: none;
+  display: inline;
+  margin: 20px;
+  display: block;
+padding: 0.5rem 1rem;
 }
 
 .icon {
   width: 25px;
   height: 25px;
   display: inline;
-  position: fixed;
-
-
+  float: right;
+  position: right;
+  /*position: fixed;
+  display: inline;*/
 }
 
 header {
   background-color: #563d7c;
-
-width:100%;
+  background-color: #563d7c;
+  height: 91px;
+  position: sticky;
+  top: 0;
 }
 
 div.scroll {
-  width: 100px;
+  width: 200px;
   height: 100px;
   overflow: scroll;
 }
+
+footer {
+  background-color: gray;
+  position: bottom;
+}
+
+.foot {
+  display: inline;
+  margin: 20px;
+}
+
+/*#first {
+    width: 100px;
+    float: left;
+    height: 300px;
+}
+#second {
+    width: 200px;
+    float: right;
+    height: 300px;
+}*/
